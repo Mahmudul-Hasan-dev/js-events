@@ -10,7 +10,20 @@
 
 <body>
     <h1>Welcome to my website</h1>
-    <button>click me</button>
+    <button onclick="console.log('i am click')">click me</button>
+    <button onclick="console.log('i am another button click')">another button</button>
+    <!-- //we can call function when setting onclick direct on html element -->
+    <button onclick="makered()">click me red</button>
+
+    <!-- //we cannot call function when setting onclick by id -->
+    <button id="make-blue">make blue</button>
+
+
+    <button id="make-purple">make purple</button>
+
+    <button id="make-pink">make pink</button>
+    <button id="make-green">make green</button>
+    <button id="make-orange">make orange</button>
 
     <!-- connect with js file -->
     <script src="js/events.js"></script>
